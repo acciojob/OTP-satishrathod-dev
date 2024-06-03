@@ -32,6 +32,6 @@ body{
 	border-radius: 4px;
 }
 .code:focus{
-	border-radius: #007bff;
+	border-color: #007bff;
 	outline: none;
 }
