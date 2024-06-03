@@ -6,7 +6,7 @@
 			inputs[i].addEventListener('input', function() {
 				let nextInput = this.nextElementSibling;
 
-				if(this.value.length === 1 && nextInput){
+				if(nextInput){
 					nextInput.focus();
 				}
 			});
